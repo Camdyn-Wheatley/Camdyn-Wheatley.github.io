@@ -59,8 +59,8 @@ body {
     display: block;           /* Makes it a block element */
     margin-left: auto;
     margin-right: auto;       /* Centers horizontally */
-    width: 636px;             /* Keep your original size */
-    height: 955px;
+    width: 955px;             /* Keep your original size */
+    height: 636px;
     border-radius: 50%;       /* Optional (rounded corners) */
 }
 
