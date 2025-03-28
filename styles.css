@@ -38,7 +38,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("hero-bg.jpg");
+    background-image: linear-gradient(rgba(0,199,249,0.7), rgba(255,0,0,0.7)), url("hero-bg.jpg");
     background-size: cover;
     min-height: 10vh; /* Adjust the min-height to make the grey area smaller */
     text-align: center;
