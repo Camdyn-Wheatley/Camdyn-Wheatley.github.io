@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cascadia Code, monospace;
     line-height: 1.6;
     min-width: 320px; /* Responsive minimum width */
 }
