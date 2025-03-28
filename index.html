@@ -1,28 +1,86 @@
+
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camdyn Wheatley</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>HI!!</h1>
-    <p>This website is currently under construction...</p>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1>Logo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Welcome to My Website! (it is currently under construction)</h2>
+            <p>Explore my GitHub projects and learn more about me.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about">
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-image">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, erat quis condimentum mattis, dolor enim porta justo, nec tempus lectus ligula ultrices felis.
+                Curabitur lacinia nulla at risus facilisis, id faucibus neque consectetur. Ut lacinia ut urna non finibus. Cras aliquet, ligula non fringilla aliquet, 
+                nibh enim varius ipsum, in malesuada erat ante id lacus.
+                Maecenas malesuada auctor lorem, a mollis ante luctus euismod. Sed venenatis tincidunt tellus ultricies porta. Proin nec maximus libero.
+                Vivamus vitae elit non libero ornare tristique sed eu dolor. 
+                Donec suscipit turpis id ligula aliquet, nec molestie ex elementum. Cras massa nisi, efficitur vitae auctor eget, vehicula quis nunc. </p>
+            <button>Download Resume</button>
+        </div>
+    </section>
+
+    <!-- GitHub Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h3>My GitHub Projects</h3>
+            <!-- Project Cards -->
+            <div class="project-card">
+                <h4>Project 1 Title</h4>
+                <p>Brief description of project .</p>
+                <button><a href="#">View Demo</a></button>
+                <button><a href="#">Repo Link</a></button>
+            </div>
+
+            <!-- Repeat the above card for other projects -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Message"></textarea>
+                <button>Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>This is the footer</p>
+    </footer>
 </body>
-  <style>
-        /* Style for the circle */
-        .circle {
-            width: 100px;           /* Diameter of the circle */
-            height: 100px;          /* Diameter of the circle */
-            background-color: red;  /* Circle color */
-            border-radius: 50%;     /* Makes it a circle */
-            position: absolute;     /* Allows positioning */
-            top: 50%;               /* Positions vertically at the center */
-            left: 50%;              /* Positions horizontally at the center */
-            transform: translate(-50%, -50%); /* Corrects alignment */
-        }
-    </style>
-</head>
-<body>
-    <div class="circle"></div>
-</body>
-    
 </html>
