@@ -40,7 +40,7 @@ body {
 .hero {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("hero-bg.jpg");
     background-size: cover;
-    min-height: 60vh; /* Adjust the min-height to make the grey area smaller */
+    min-height: 20vh; /* Adjust the min-height to make the grey area smaller */
     text-align: center;
     color: white;
     padding-top: 2rem; /* Reduce the padding to bring the content up */
