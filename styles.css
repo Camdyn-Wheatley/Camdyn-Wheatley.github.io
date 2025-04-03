@@ -9,6 +9,7 @@ body {
     font-family: Cascadia Code, monospace;
     line-height: 1.6;
     min-width: 320px; /* Responsive minimum width */
+    background-color: #f7efca; /* Updated background color */
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 1.5rem 0;
 }
 
@@ -47,7 +48,6 @@ body {
     padding-bottom: 2rem; /* Optionally add padding to the bottom if needed */
 }
 
-
 .hero h2 {
     font-size: 3rem;
 }
@@ -59,13 +59,18 @@ body {
 
 .profile-image {
     display: block;           /* Makes it a block element */
-    margin-left: auto;
-    margin-right: auto;       /* Centers horizontally */
-    width: 955px;             /* Keep your original size */
-    height: 636px;
+    margin: 0 auto;           /* Centers horizontally */
+    width: 80%;               /* Scales width relative to viewport */
+    max-width: 955px;         /* Prevents it from exceeding original size */
+    height: auto;             /* Maintains aspect ratio */
     border-radius: 50%;       /* Optional (rounded corners) */
 }
 
+@media (max-width: 768px) {
+    .profile-image {
+        width: 60%;           /* Further scales down for smaller devices */
+    }
+}
 
 .about-me button {
     background-color: #2c7be5;
